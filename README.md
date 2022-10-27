@@ -69,4 +69,15 @@ Once jobs are submitted, ```hep_q -u username``` to monitor their status.
 
 <br/><br/>
 
+***For job flavour***
+```
+Walltime Limit INFO for group 'cms':
+'default' job walltime limit is: 10.0 hours.
+'long' job walltime limit is: 720.0 hours.
+'mid' job walltime limit is: 100.0 hours.
+'short' job walltime limit is: 30.0 minutes.
+'test' job walltime limit is: 5.0 minutes.
+
+hep_sub -wt xxx
+```
 ***All above jobs are small, do not need to ask a real 40GB of RAM. If you ask 40BG for a job, it will be idle (<24h)***
